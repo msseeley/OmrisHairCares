@@ -1,14 +1,19 @@
-import React, { Component } from 'react'
-import { BrowserRouter as Router, Link, Route, Switch } from 'react-router-dom'
+import React from 'react'
+// import { BrowserRouter as Router, Link, Route, Switch } from 'react-router-dom'
+import About from './About'
+import CharityInfo from './CharityInfo';
+import HairSelector from './HairSelector';
+import DonationChart from './DonationChart';
 
 
-export default class Root extends Component {
-
-  render() {
-    return (
-      <div>
-
-      </div>
-    )
-  }
+const Root = () => {
+  return (
+    <div id="container">
+      <About />
+      <CharityInfo />
+      <DonationChart />
+      <HairSelector />
+    </div>
+  )
 }
+export default Root

@@ -1,7 +1,7 @@
 import React from 'react'
 import { render } from 'react-dom'
-import { Provider } from 'react-redux'
-import * as firebase from 'firebase';
+// import { Provider } from 'react-redux'
+import firebase from 'firebase/app';
 
 // import store from './store'
 import Root from './components/Root.jsx'

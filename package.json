@@ -1,10 +1,10 @@
 {
-  "name": "SideCar",
+  "name": "Omri's_Hair_Cares",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "webpack -w & nodemon --watch server -e js,html server/main.js",
+    "start": "webpack -w & firebase serve",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -13,6 +13,7 @@
   "dependencies": {
     "axios": "^0.18.0",
     "express": "^4.16.3",
+    "firebase": "^5.5.2",
     "pg": "^7.4.3",
     "react": "^16.3.2",
     "react-dom": "^16.3.2",
