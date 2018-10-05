@@ -1,31 +1,39 @@
-#container{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+body{
+  background-image: url('./rainbow.jpg');
+  background-size: contain;
+  background-repeat: repeat-y;
+}
+
+#main{
+  margin: 3em;
 }
 
 #about-container{
-  align-content:center;
+  padding:2em;
 }
-
+#about-title{
+  text-align: left;
+}
 #haircut-container{
   display: flex;
   flex-wrap: wrap;
-  width: 1000px;
 }
+
+#selector-container{
+  margin: 3em;
+}
+
 .haircut-images{
   flex: 0 0 33%;
   border: .1em solid black;
+  margin: 3em;
 }
 
-#charity-blurb{
-  width:1000px;
-}
 
 .centered{
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: white;
 }

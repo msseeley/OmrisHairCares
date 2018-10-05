@@ -17,7 +17,7 @@ export default class HairSelector extends React.Component {
 
   render() {
     return (
-      <div id="selector-container">
+      <div className="centered" id="selector-container">
         <div className="centered" >
           <img src="https://image.freepik.com/free-icon/british-man-with-long-hair-and-beard_318-42080.jpg" alt="omri-stand-in" />
         </div>

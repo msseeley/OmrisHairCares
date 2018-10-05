@@ -2,7 +2,7 @@ import React from 'react'
 
 const About = () => {
   return (
-    <div className="about-container">
+    <div id="about-container">
       <h1 id="about-title">About</h1>
       <div className="about-explanation">
         <p> 1.) Choose a haircut.</p>

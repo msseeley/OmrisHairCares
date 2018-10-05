@@ -8,7 +8,7 @@ import DonationChart from './DonationChart';
 
 const Root = () => {
   return (
-    <div id="container">
+    <div className="centered" id="container">
       <About />
       <CharityInfo />
       <DonationChart />
