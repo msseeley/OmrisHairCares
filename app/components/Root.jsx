@@ -11,7 +11,7 @@ const Root = () => {
   return (
     <div id="container">
       <div className="centered">
-        <div style={{ display: "flex" }}>
+        <div id="header-about" style={{ display: "flex" }}>
           <Header />
           <About />
         </div>

@@ -1,6 +1,14 @@
+/*
+Color Pallette:
+247BA0 lighter blue
+011936 darker blue
+DA502F red-orange
+9D6381 purple/fuschia
+*/
+
 #header-container{
   text-align: left;
-  background-color: black;
+  background-color:#011936;
   padding: 2em;
   display: inline-block;
 }
@@ -26,10 +34,15 @@
   display: inline-block;
   vertical-align: center;
 }
-
+#header-about{
+  display: "flex";
+  width: 100%;
+}
 #about-container{
   display: inline-block;
-  padding:2em;
+  background-color: white;
+  margin: 1.5em;
+  padding: 1em;
 }
 #about-title{
   font-family: 'Playfair Display', serif;
@@ -47,9 +60,17 @@
   font-weight: 900;
 }
 
+#charity-container{
+  background-color:#9D6381;
+}
+
+#charity-description{
+  background-color: white;
+  margin: 0 2em;
+}
+
 #charity-blurb{
   text-align: justify;
-  margin: 4em;
 }
 
 #haircut-container{
@@ -59,10 +80,6 @@
 
 #selector-container{
   margin: 3em;
-}
-
-#charity-blurb{
-  margin:3em;
 }
 
 .haircut-images{
