@@ -4,15 +4,21 @@ import About from './About'
 import CharityInfo from './CharityInfo';
 import HairSelector from './HairSelector';
 import DonationChart from './DonationChart';
+import Header from './Header';
 
 
 const Root = () => {
   return (
-    <div className="centered" id="container">
-      <About />
-      <CharityInfo />
-      <DonationChart />
-      <HairSelector />
+    <div id="container">
+      <div className="centered">
+        <div style={{ display: "flex" }}>
+          <Header />
+          <About />
+        </div>
+        <CharityInfo />
+        <DonationChart />
+        <HairSelector />
+      </div>
     </div>
   )
 }

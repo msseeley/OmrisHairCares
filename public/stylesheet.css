@@ -1,19 +1,57 @@
-body{
-  background-image: url('./rainbow.jpg');
-  background-size: contain;
-  background-repeat: repeat-y;
+#header-container{
+  text-align: left;
+  background-color: black;
+  padding: 2em;
+  display: inline-block;
+}
+#header {
+  font-family: 'Playfair Display', serif;
+  color:white;
+  display: inline-block
+
+}
+#title{
+  font-weight: 900i;
+  font-size: 3em;
+  margin:0;
+  display: inline-block;
 }
 
-#main{
-  margin: 3em;
+#tag-line{
+  font-style: italic;
+  color: white;
+}
+#header-image{
+  width: 8em;
+  display: inline-block;
+  vertical-align: center;
 }
 
 #about-container{
+  display: inline-block;
   padding:2em;
 }
 #about-title{
-  text-align: left;
+  font-family: 'Playfair Display', serif;
+  font-weight: 900;
 }
+#charity-title{
+  font-family: 'Playfair Display', serif;
+  font-weight: 900;
+}
+.regular-font{
+  font-family: 'Dosis', sans-serif;
+}
+.subheader{
+  font-family: 'Playfair Display', serif;
+  font-weight: 900;
+}
+
+#charity-blurb{
+  text-align: justify;
+  margin: 4em;
+}
+
 #haircut-container{
   display: flex;
   flex-wrap: wrap;
@@ -23,17 +61,23 @@ body{
   margin: 3em;
 }
 
+#charity-blurb{
+  margin:3em;
+}
+
 .haircut-images{
   flex: 0 0 33%;
   border: .1em solid black;
   margin: 3em;
 }
 
-
-.centered{
+/* #charity-container{
+  padding:2em;
+} */
+/* .centered{
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   background-color: white;
-}
+} */
