@@ -34,10 +34,7 @@ DA502F red-orange
   display: inline-block;
   vertical-align: center;
 }
-#header-about{
-  display: "flex";
-  width: 100%;
-}
+
 #about-container{
   display: inline-block;
   background-color: white;
@@ -59,8 +56,6 @@ DA502F red-orange
   font-family: 'Playfair Display', serif;
   font-weight: 900;
 }
-
-.collapsible {}
 
 #charity-container{
   background-color:#9D6381;
