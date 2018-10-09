@@ -18,7 +18,6 @@ class CharityInfo extends React.Component {
             Too many young people face obstacles to success caused by poverty, violence, and systemic inequities in education and employment. By giving teens access to software development training, exposure to mentors employed at tech companies, and practical steps to build a career path, we reveal to students a previously unknown and unavailable pathway to a brighter future.
         </p>
         </div>
-
       </div>
     )
   }
