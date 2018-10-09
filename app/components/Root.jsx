@@ -5,6 +5,7 @@ import CharityInfo from './CharityInfo';
 import HairSelector from './HairSelector';
 import DonationChart from './DonationChart';
 import Header from './Header';
+// import NavBar from './NavBar'
 
 
 const Root = () => {
