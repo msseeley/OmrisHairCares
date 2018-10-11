@@ -2,20 +2,15 @@ import React from 'react'
 
 const Header = () => {
   return (
-    <div id="header-container">
-      <div style={{
-        display: 'flex',
-        flexDirection: 'row',
-        alignItems: 'center'
-      }}>
-        <img id="header-image" src="OmriHairLogo.png" />
-        <div className="title" id="header">
-          <h1>OMRI'S<br />HAIR<br />CARES</h1>
-        </div>
+    <div id="row1-col2">
+      <div id="head-container">
+        <p id="header">OMRI'S HAIR CARES</p>
+        <p id="tag-line">Putting the 'hair' in chairity</p>
       </div>
-      <h2 id="tag-line" className="title-font">putting the hair in charity</h2>
     </div>
+
   )
 }
 
 export default Header
+

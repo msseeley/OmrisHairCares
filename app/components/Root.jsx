@@ -1,6 +1,5 @@
 import React from 'react'
 // import { BrowserRouter as Router, Link, Route, Switch } from 'react-router-dom'
-import About from './About'
 import CharityInfo from './CharityInfo';
 import HairSelector from './HairSelector';
 import DonationChart from './DonationChart';
@@ -10,15 +9,15 @@ import Header from './Header';
 
 const Root = () => {
   return (
-    <div id="container">
-      <div className="centered">
-        <div id="header-about" style={{ display: "flex" }}>
-          <Header />
-          <About />
-        </div>
+    <div id="grid">
+      <Header />
+      <div id="col1-row1" style={{ flex: 1, backgroundColor: "#011936" }}>
+        <img id="header-image" src="OmriLogo.png" />
+      </div>
+      <div>
         <CharityInfo />
-        <DonationChart />
-        <HairSelector />
+        {/* <DonationChart /> */}
+        {/* <HairSelector /> */}
       </div>
     </div>
   )

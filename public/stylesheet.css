@@ -6,49 +6,118 @@ DA502F red-orange
 9D6381 purple/fuschia
 */
 
-#header-container{
-  text-align: left;
-  background-color:#011936;
-  padding: 2em;
-  display: inline-block;
+/* BACKGROUND */
+body{
+  margin: 0;
+  font-family: 'Playfair Display', serif;
 }
+#grid{
+  display: grid;
+  grid-template-columns: 16em auto;
+  grid-template-rows: 13em auto;
+}
+.content{
+  margin-left: 16em;
+}
+
+/* ROW 1, COLUMN 1 : LOGO */
+
+#header-image{
+  width: 14em;
+  margin-left: 0;
+  position: absolute;
+  left: 22px;
+  top: 7px;
+}
+
+#hair{
+  position: absolute;
+  left: 9px;
+  width: 12em;
+  top: 222px;
+}
+
+
+/* ROW 1, COLUMN 2 : HEADING & TAGLINE */
+
+#row1-col2{
+  grid-column: 2;
+  grid-row: 1;
+  background-color:#247BA0;
+}
+
 #header {
   font-family: 'Playfair Display', serif;
   color:white;
-  display: inline-block
-
-}
-#title{
-  font-weight: 900i;
+  font-weight: bold;
   font-size: 3em;
-  margin:0;
-  display: inline-block;
+  margin-bottom: 0;
+}
+#head-container{
+  background-color: #247BA0;
+  margin:1em;
+
 }
 
 #tag-line{
+  font-family: 'Playfair Display', serif;
+  font-weight: normal;
   font-style: italic;
-  color: white;
+  margin-left: 4em;
 }
-#header-image{
-  width: 8em;
-  display: inline-block;
-  vertical-align: center;
+
+/*COLUMN 1, ROW 2: LINKS */
+#btn-and-charity{
+  grid-row: 2;
+  grid-column: 1;
+  margin-top: 7em;
+  margin-left: 9em;
+}
+
+/* COLUMN 2, ROW 2: CHARITY INFO STYLING*/
+
+#outer-about-container{
+  grid-column: 2;
+  grid-row: 2;
 }
 
 #about-container{
-  display: inline-block;
   background-color: white;
-  margin: 1.5em;
-  padding: 1em;
 }
 #about-title{
   font-family: 'Playfair Display', serif;
   font-weight: 900;
+  margin: 0em;
 }
+
 #charity-title{
   font-family: 'Playfair Display', serif;
   font-weight: 900;
 }
+
+#charity-container{
+  background-color: white;
+}
+
+#charity-description{
+  background-color: white;
+}
+
+#charity-blurb{
+  text-align: justify;
+}
+
+#outer-about{
+  margin-left: 8em;
+  display: inline-block;
+}
+#charity-btn{
+  border-color: transparent;
+  font-family: 'Playfair Display', serif;
+  font-weight: 900;
+}
+
+/* TEXT/FONT  STYLING  */
 .regular-font{
   font-family: 'Dosis', sans-serif;
 }
@@ -57,18 +126,7 @@ DA502F red-orange
   font-weight: 900;
 }
 
-#charity-container{
-  background-color:#9D6381;
-}
-
-#charity-description{
-  background-color: white;
-  margin: 0 2em;
-}
-
-#charity-blurb{
-  text-align: justify;
-}
+/*HAIRCUT SELECTOR STYLING */
 
 #haircut-container{
   display: flex;
@@ -84,14 +142,3 @@ DA502F red-orange
   border: .1em solid black;
   margin: 3em;
 }
-
-/* #charity-container{
-  padding:2em;
-} */
-/* .centered{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background-color: white;
-} */
