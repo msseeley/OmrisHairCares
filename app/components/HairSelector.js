@@ -17,8 +17,8 @@ export default class HairSelector extends React.Component {
 
   render() {
     return (
-      <div className="centered" id="selector-container">
-        <img src="https://image.freepik.com/free-icon/british-man-with-long-hair-and-beard_318-42080.jpg" alt="omri-stand-in" />
+      <div id="selector-container">
+        <img id="Omri-Selector-Image" src="https://image.freepik.com/free-icon/british-man-with-long-hair-and-beard_318-42080.jpg" alt="omri-stand-in" />
         <div id="haircut-container">
           {
             haircuts.map(cut => <img className="haircut-images" key={cut.id} src={cut.image} height="270" width="150" />)

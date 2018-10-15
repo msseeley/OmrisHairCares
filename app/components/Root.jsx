@@ -51,9 +51,7 @@ export default class Root extends Component {
             }
           </div>
         </div>
-        <div id="col2-row3">
-          <HairSelector />
-        </div>
+        <HairSelector />
       </div>
     )
   }
