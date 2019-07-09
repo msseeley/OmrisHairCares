@@ -5,7 +5,6 @@ const Header = () => {
     <div id="row1-col2">
       <div id="head-container">
         <p id="header">OMRI'S HAIR CARES</p>
-        <p id="tag-line">Putting the 'hair' in chairity</p>
       </div>
     </div>
 

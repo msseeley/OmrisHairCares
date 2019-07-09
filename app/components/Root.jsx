@@ -22,10 +22,10 @@ export default class Root extends Component {
       <div id="entire-page">
         <div id="grid">
           <Header />
-          <div id="col1-row1" style={{ flex: 1, backgroundColor: "#011936" }}>
-            <img id="header-image" src="OmriLogo.png" />
+          <div id="col1-row1" style={{ flex: 1, }}>
+            <img id="header-image" src="OmrisHairOnly.png" />
           </div>
-          <div id="col1-row2">
+          <div id="col2-row2-buttons">
             <button id="charity-btn" type="button" onClick={() => this.setState({ openHowItWorks: !this.state.openHowItWorks })}>
               HOW IT WORKS
           </button>
@@ -33,7 +33,7 @@ export default class Root extends Component {
               THE CHAIRITY
           </button>
             <button id="charity-btn" type="button" onClick={() => this.setState({ openFundingGraph: !this.state.openFundingGraph })}>
-              FUNDRAISING GOALS
+              #GOALS
           </button>
           </div>
           <div id="col2-row2">
