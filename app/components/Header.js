@@ -4,7 +4,7 @@ const Header = () => {
   return (
     <div id="row1-col2">
       <div id="head-container">
-        <p id="header">OMRI'S HAIR CARES</p>
+        <h1 id="header">OMRI'S HAIR CARES</h1>
       </div>
     </div>
 

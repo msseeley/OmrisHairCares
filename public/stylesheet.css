@@ -23,10 +23,10 @@ body{
 /* ROW 1, COLUMN 1 : LOGO */
 
 #header-image{
-  width: 20em;
+  width: 15em;
   margin-left: 0;
   position: absolute;
-  left: 22px;
+  left: 8em;
   top: 7px;
 }
 
@@ -37,19 +37,24 @@ body{
   top: 222px;
 }
 
+#col1-row1{
+  border-bottom: double;
+}
+
 
 /* ROW 1, COLUMN 2 : HEADING & TAGLINE */
 
 #row1-col2{
   grid-column: 2;
   grid-row: 1;
+  border-bottom: double;
 }
 
 #header {
   font-family: 'Yeseva One', cursive;
   font-weight: bold;
   font-size: 4em;
-  margin-bottom: 0;
+  margin-top: 5em;
   text-align: center;
 }
 #head-container{
