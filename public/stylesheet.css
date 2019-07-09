@@ -65,7 +65,8 @@ body{
 
 /*COLUMN 2, ROW 2: LINKS */
 #col2-row2-buttons{
-  margin-top: 6em;
+  grid-column: 2;
+  grid-row: 2;
   text-align: center;
 }
 #charity-btn{
@@ -77,6 +78,8 @@ body{
 /* COLUMN 2, ROW 2: CHARITY INFO STYLING*/
 
 #col2-row2{
+  grid-column: 2;
+  grid-row: 2;
   margin-left: 1em;
   margin-top: 4em;
   margin-bottom: 4em;
