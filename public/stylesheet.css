@@ -23,10 +23,10 @@ body{
 /* ROW 1, COLUMN 1 : LOGO */
 
 #header-image{
-  width: 15em;
+  width: 18em;
   margin-left: 0;
   position: absolute;
-  left: 8em;
+  left: 5em;
   top: 7px;
 }
 
@@ -54,7 +54,7 @@ body{
   font-family: 'Yeseva One', cursive;
   font-weight: bold;
   font-size: 4em;
-  margin-top: 5em;
+  margin-top: 1.5em;
   text-align: center;
 }
 #head-container{
@@ -78,6 +78,9 @@ body{
   border-color: transparent;
   font-family: 'Playfair Display', serif;
   font-weight: 900;
+  padding-right: 2em;
+  padding-top: 1em;
+  background:#EEEEE0;
 }
 
 /* COLUMN 2, ROW 2: CHARITY INFO STYLING*/
