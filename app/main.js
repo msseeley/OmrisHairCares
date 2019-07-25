@@ -2,7 +2,7 @@ import React from 'react'
 import { render } from 'react-dom'
 import firebase from 'firebase/app';
 
-import Root from './components/Root.jsx'
+import Root from './components/Root'
 
 var config = {
   apiKey: "AIzaSyCFcc250BAECQCAASzW2k95pObE6r5H4pU",
