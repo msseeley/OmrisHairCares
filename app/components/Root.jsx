@@ -8,32 +8,24 @@ import Header from './Header';
 // import NavBar from './NavBar'
 
 
-export default class Root extends Component {
-  constructor() {
-    super()
-    this.state = {
-      openHowItWorks: false,
-      openCharityInfo: false,
-      openFundingGraph: false,
-    }
-  }
-  render() {
-    return (
-      <div id="entire-page">
-        <div id="grid">
-          <Header />
-          <div id="col1-row1" style={{ flex: 1, }}>
-            <img id="header-image" src="OmrisHairOnly.png" />
-          </div>
-          <div id="col2-row2">
-            <DonationChart />
-            <HowItWorks />
-            <CharityInfo />
-          </div>
+const Root = () => {
+  return (
+    <div id="entire-page">
+      <div id="grid">
+        <Header />
+        <div id="col1-row1" style={{ flex: 1, }}>
+          <img id="header-image" src="OmrisHairOnly.png" />
         </div>
-        <HairSelector />
+        <div id="col2-row2">
+          <DonationChart />
+          <HowItWorks />
+          <CharityInfo />
+        </div>
       </div>
-    )
-  }
+      <HairSelector />
+    </div>
+  )
 }
+
+export default Root
 
