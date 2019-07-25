@@ -25,30 +25,10 @@ export default class Root extends Component {
           <div id="col1-row1" style={{ flex: 1, }}>
             <img id="header-image" src="OmrisHairOnly.png" />
           </div>
-          <div id="col2-row2-buttons">
-            <button id="charity-btn" type="button" onClick={() => this.setState({ openHowItWorks: !this.state.openHowItWorks })}>
-              HOW IT WORKS
-          </button>
-            <button id="charity-btn" type="button" onClick={() => this.setState({ openCharityInfo: !this.state.openCharityInfo })}>
-              THE CHAIRITY
-          </button>
-            <button id="charity-btn" type="button" onClick={() => this.setState({ openFundingGraph: !this.state.openFundingGraph })}>
-              #GOALS
-          </button>
-          </div>
           <div id="col2-row2">
-            {
-              this.state.openHowItWorks &&
-              <HowItWorks />
-            }
-            {
-              this.state.openCharityInfo &&
-              <CharityInfo />
-            }
-            {
-              this.state.openFundingGraph &&
-              <DonationChart />
-            }
+            <DonationChart />
+            <HowItWorks />
+            <CharityInfo />
           </div>
         </div>
         <HairSelector />
