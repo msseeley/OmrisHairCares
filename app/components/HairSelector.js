@@ -17,10 +17,10 @@ export default class HairSelector extends React.Component {
 
   render() {
     return (
-      <div id="selector-container">
-        <div id="haircut-container">
+      <div>
+        <div>
           {
-            haircuts.map(cut => <img className="haircut-images" key={cut.id} src={cut.image} height="270" width="150" />)
+            haircuts.map(cut => <img key={cut.id} src={cut.image} />)
           }
         </div>
       </div>
